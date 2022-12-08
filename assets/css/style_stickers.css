@@ -1,0 +1,24 @@
+img {
+    width: 300px;
+    height: 300px;
+}
+
+.container{
+    display: grid;
+    grid-template-columns: auto auto auto;
+    gap: 0px;
+    justify-content: center;
+}
+
+input{
+    margin: 0px 35px;
+}
+
+.verificador{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+button{
+    font-size: large;
+}
