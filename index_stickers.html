@@ -11,16 +11,16 @@
     <div class="layout">
         <div><p>Puedes llevar hasta 10 stickers en total</p></div>
         <div class="container">
-            <img id="input1" src="/assets/img/sticker1.jpeg" alt="sticker numero 1">
-            <img id="input2" src="/assets/img/sticker2.jpeg" alt="sticker numero 1">
-            <img id="input3" src="/assets/img/sticker3.jpeg" alt="sticker numero 1">
-            <input type="text" placeholder="Cantidad de stickers">
-            <input type="text" placeholder="Cantidad de stickers">
-            <input type="text" placeholder="Cantidad de stickers">
+            <img src="/assets/img/sticker1.jpeg" alt="sticker numero 1">
+            <img src="/assets/img/sticker2.jpeg" alt="sticker numero 1">
+            <img src="/assets/img/sticker3.jpeg" alt="sticker numero 1">
+            <input id="input1" name="input1" type="number" value="0" min="0"placeholder="Cantidad de stickers">
+            <input id="input2" name="input2" type="number" value="0" min="0"placeholder="Cantidad de stickers">
+            <input id="input3" name="input3" type="number" value="0" min="0"placeholder="Cantidad de stickers">
         </div>
         <div class="verificador">
-            <p>TEXTO QUE INDICARA CANTIDAD DE STICKERS O SI LLEVAS MUCHOS</p>
-            <button>Verificar</button>
+            <p><span id="respuesta_cantidad"></span></p>
+            <button onclick="sumar()">Verificar</button>
         </div>
     </div>
     <script src="/assets/js/index2_stickers.js"></script>

@@ -21,7 +21,6 @@ img {
 input{
     margin: 0px 35px;
 }
-
 .verificador{
     display: flex;
     flex-direction: column;
